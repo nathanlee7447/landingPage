@@ -1,0 +1,42 @@
+.introduction {
+    display: grid;
+    grid-template-columns: 60% 60%;
+}
+
+.introduction_left{
+    font-family: "Figtree";
+    text-align: center;
+
+    width: 55%;
+
+    margin: 0;
+}
+
+.introduction_left > h1 {
+    font-size:5vw;
+    font-weight: 900;
+}
+
+.introduction_left > button {
+    width: 15vw;
+    height: 3vw;
+
+    background-color: rgb(28,30,50);
+    color: white;
+
+    font-family: "Figtree";
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+.introduction_right {
+    width: 55vw;
+    height: 50vh;
+    object-fit: cover;
+    position: fixed;
+    left: 35vw;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
